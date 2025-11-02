@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="409e5a4e-28e1-4183-a21e-30dddf093057" extendedConfigurationObject="4bcf5efc-d119-4131-835d-815195fc8c51">
+  <producedTypes>
+    <refType typeId="f71327d2-3ffe-4b2e-b64f-443d0aafcb7c" valueTypeId="ad115fd6-75b2-412f-92b3-17540243e907"/>
+    <listType typeId="cc3b03f4-28b5-4ad4-85d4-208c6e214529" valueTypeId="135149d8-8773-4977-b744-78ed00f37b21"/>
+    <managerType typeId="5a903d0d-788e-4239-928e-4b7fe44b4f8f" valueTypeId="eb7b7000-4748-4e81-83ab-16eec4c06451"/>
+  </producedTypes>
+  <name>ВидыДоговоровКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="d4cb1e22-d465-4174-a84c-e6ddfac02e94">
+    <name>ВКМ_АбоненскоеОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абоненское обслуживание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

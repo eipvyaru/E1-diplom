@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f61495c9-7453-42f5-a2cc-0a1a5e602ec9" extendedConfigurationObject="e774faa1-e972-468e-9960-e07838851b78">
+  <producedTypes>
+    <objectType typeId="4bff31c9-daf4-4dee-b3cd-cfc7ba874811" valueTypeId="1bff2944-d823-44bf-aa9b-6061c8f18de3"/>
+    <refType typeId="4be2f174-ab44-480d-afa3-324d8bc10162" valueTypeId="e183f740-cc09-446d-b3da-abf00882f124"/>
+    <selectionType typeId="c04b47b4-66ba-46e9-a3bb-80381798bc25" valueTypeId="546d23b5-726c-43fd-8fc9-ec0c5b5ad610"/>
+    <listType typeId="801e48fa-76fb-46e9-b245-85f692b4e92e" valueTypeId="edf45ee2-f68e-45bf-b2c5-36852f1194f1"/>
+    <managerType typeId="2dbde1d1-f2b0-4a1f-9e83-987b1e9a63c7" valueTypeId="a69469cd-8682-432f-ba20-9e0be99bbb92"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <defaultObjectForm>Extended</defaultObjectForm>
+    <defaultChoiceForm>Extended</defaultChoiceForm>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <defaultObjectForm>Catalog.ДоговорыКонтрагентов.Form.ВКМ_ФормаЭлементаДоговораОбслуживания</defaultObjectForm>
+  <attributes uuid="09996427-8c59-4108-9199-510a716cfd9e">
+    <name>ВКМ_ДатаНачалаДоговораОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия договора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85d0524b-bf82-4d9b-9164-03d493c75b6a">
+    <name>ВКМ_ДатаОкончанияДоговораОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия договора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48b7b548-e8c1-4192-a58e-6d1180a63d86">
+    <name>ВКМ_СуммаЕжемесячнойАбонентскойПлаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма ежемесячной абонентской платы</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Денежный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c184dafa-4a35-4afa-befb-ceb382e1cc3f">
+    <name>ВКМ_СтоимостьЧасаРаботыСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость часа работы специалиста</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Денежный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="774d5bd1-bf98-4fdf-a069-8fed5a34f887" extendedConfigurationObject="a81d1f8d-ea75-4cec-9742-5970eceda758">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="589ce4fb-3c02-43f8-9e86-a84a5d422eac" extendedConfigurationObject="7578fe6c-f228-48d8-9c9b-2c2c261009e2">
+    <name>ВидДоговора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыДоговоровКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="4b7ac4e6-f302-46c7-85f2-cedd28976498">
+    <name>ВКМ_ФормаЭлементаДоговораОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента договора обслуживания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

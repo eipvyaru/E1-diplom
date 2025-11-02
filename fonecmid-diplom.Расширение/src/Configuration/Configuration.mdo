@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2385ead5-4ec6-463e-8e13-98d01133bfc6">
+  <name>Расширение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f04e1496-8ca8-4b53-b232-3b39e9123b2d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8bdd7990-7261-491e-9408-b28d15ed04d9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9b610d73-ad7d-4ed3-9348-ba365a706b8c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ce474163-c866-44bc-889b-c3c1832314a5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7301c3dd-d677-47ad-a9c8-70c80d9a2a5b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="291aea1a-aae2-4946-9fb9-369eac2e7f64"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b434c756-3bbc-4799-9362-517f2e6ab559"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ВКМ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="dc2b2c56-c25f-4101-ab37-b49c96bfbd16">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <roles>Role.ВКМ_ОсновнаяРоль</roles>
+  <roles>Role.ВКМ_РольРаботыСОбслуживаниемКлиентов</roles>
+  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <definedTypes>DefinedType.ВКМ_Денежный</definedTypes>
+  <definedTypes>DefinedType.ВладелецПрисоединенныхФайлов</definedTypes>
+  <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
+  <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
+  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
+  <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
+  <enums>Enum.ВидыДоговоровКонтрагентов</enums>
+  <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
+  <enums>Enum.ТипыХраненияФайлов</enums>
+  <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
+</mdclass:Configuration>
