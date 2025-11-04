@@ -11,5 +11,8 @@
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Role.ВКМ_РольРаботыСОбслуживаниемКлиентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>
+  <content>Constant.ВКМ_chat_id</content>
+  <content>CommonModule.ВКМ_ТелеграмВызовСервера</content>
   <parentSubsystem>Subsystem.ВКМ_ОбслуживаниеКлиентов</parentSubsystem>
 </mdclass:Subsystem>

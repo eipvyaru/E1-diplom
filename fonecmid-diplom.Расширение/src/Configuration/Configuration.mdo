@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <commandInterface>Extended</commandInterface>
     <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
@@ -48,13 +49,18 @@
   <commonPictures>CommonPicture.Скрепка</commonPictures>
   <roles>Role.ВКМ_ОсновнаяРоль</roles>
   <roles>Role.ВКМ_РольРаботыСОбслуживаниемКлиентов</roles>
-  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <commonModules>CommonModule.ВКМ_ТелеграмВызовСервера</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <scheduledJobs>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</scheduledJobs>
   <definedTypes>DefinedType.ВКМ_Денежный</definedTypes>
   <definedTypes>DefinedType.ВладелецПрисоединенныхФайлов</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
+  <constants>Constant.ВКМ_botToken</constants>
+  <constants>Constant.ВКМ_chat_id</constants>
   <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
