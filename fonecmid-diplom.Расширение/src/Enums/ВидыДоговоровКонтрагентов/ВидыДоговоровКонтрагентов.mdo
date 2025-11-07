@@ -18,4 +18,11 @@
       <value>Абоненское обслуживание</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="419e8867-3da1-4342-83ff-a7c1c11ed289" extendedConfigurationObject="05cf7625-5d6d-4d47-80fe-ad6a90a4e195">
+    <name>Покупатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>
