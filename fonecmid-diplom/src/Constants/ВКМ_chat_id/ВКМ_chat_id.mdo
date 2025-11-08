@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c0a2a46-0acd-4e89-add3-a7a033d44159">
+  <producedTypes>
+    <managerType typeId="e7c33b40-e9ed-432a-9087-122aeee3890a" valueTypeId="2a25c037-d271-4023-b92c-a84cd3d6cd8e"/>
+    <valueManagerType typeId="5b3f27f9-e722-478f-b2c4-adba2af55ac9" valueTypeId="d184d745-6eb2-4220-94d3-12f648aaab0a"/>
+    <valueKeyType typeId="5203f9b6-5469-497f-9a1b-a56e352d2004" valueTypeId="df20e9cf-a2d4-4f05-8f93-1f94442eff10"/>
+  </producedTypes>
+  <name>ВКМ_chat_id</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор группы Telegram: chat_id</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>25</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a81f315-0fcd-485f-94f5-cd0dbbe1a9f2">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd5ab88-838c-4973-80d7-c392b7046f6b">
   <producedTypes>
-    <selectionType typeId="cb329d8a-47d5-481e-9e7c-859f1a2f922f" valueTypeId="c5f3ec9a-786f-4940-92df-5fa67f562178"/>
-    <listType typeId="e03761f3-b977-410f-b029-513d8d44d141" valueTypeId="dab6e28a-9e33-4674-8d50-0eb84b479751"/>
-    <managerType typeId="6eb00920-8b52-4b45-beaf-a46ac7da28f8" valueTypeId="fc994622-a464-43f0-a097-d32de365a033"/>
-    <recordSetType typeId="b286ac3c-3200-410b-8a88-5e74e6101f75" valueTypeId="e8f99d77-613a-4c1f-818a-c6d9c1dcc2de"/>
-    <recordKeyType typeId="01a2c9bf-b258-4c2b-8d34-8c28f241cc3d" valueTypeId="97b5daee-c409-4a94-a365-1f81c02d31a0"/>
-    <recordType typeId="9b8606d7-1497-4d08-a24f-6124d89c073e" valueTypeId="3301b6d4-0dba-40f2-878e-c980880c0d31"/>
+    <selectionType typeId="439b9043-231d-43a4-89f0-0b7a1685a524" valueTypeId="b92f6677-83dc-4fa9-be9f-78086476ab72"/>
+    <listType typeId="a59db4da-c539-4461-a701-f229c1f62b95" valueTypeId="f91c569a-5264-4ee8-85b5-342937cb89d2"/>
+    <managerType typeId="293bfc97-9ab2-4a0e-a3b2-bff74ca3c912" valueTypeId="df6de3bd-b89d-4cec-9923-59f567920a44"/>
+    <recordSetType typeId="cf609f65-f20b-479e-aa50-d8f514c97728" valueTypeId="50d9f9f9-6ddb-4c87-ac90-7ca2d712998e"/>
+    <recordKeyType typeId="4a9ba2c0-4496-45ea-95bb-8954332a3a68" valueTypeId="1ff4935f-656d-4b6d-b9f3-04e36c6103d3"/>
+    <recordType typeId="8fbb643c-6fe1-4bc6-8f3e-9d2cd2bd0a04" valueTypeId="2a60151b-3e5d-4912-baaa-bd26c15035ca"/>
   </producedTypes>
   <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
@@ -16,7 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="b27ab181-289b-4a93-97aa-fb2f83242de6">
+  <resources uuid="18a95cd6-f2ca-4841-a01e-d56318229897">
     <name>ВКМ_ЧасыКОплатеКлиенту</name>
     <synonym>
       <key>ru</key>
@@ -25,7 +25,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>8</precision>
+        <precision>5</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -33,7 +33,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="4126cb35-db84-4aa6-ad8b-6767bd105581">
+  <resources uuid="9d4671be-7f00-4a4a-9327-93d5c314e6ea">
     <name>ВКМ_СуммаКОплате</name>
     <synonym>
       <key>ru</key>
@@ -46,7 +46,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="86dea37c-18e3-4e16-811f-a60813950c51">
+  <dimensions uuid="1459f48d-dbf1-4954-973c-dff3500af492">
     <name>ВКМ_Организация</name>
     <synonym>
       <key>ru</key>
@@ -59,7 +59,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="95d39542-4493-49a8-ab7c-c80de08ea712">
+  <dimensions uuid="41abd14e-cd87-4328-8efb-cabe8692ab0c">
     <name>ВКМ_Клиент</name>
     <synonym>
       <key>ru</key>
@@ -72,7 +72,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="3fdf39e7-f363-41de-9fed-d2e681218c23">
+  <dimensions uuid="27ed87e4-443c-4723-8b7b-92ecea9cd7c9">
     <name>ВКМ_Договор</name>
     <synonym>
       <key>ru</key>
