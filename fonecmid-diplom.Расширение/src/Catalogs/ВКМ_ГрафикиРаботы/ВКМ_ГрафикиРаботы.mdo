@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2f07875-9c5c-479b-bf57-bc04745f6011">
+  <producedTypes>
+    <objectType typeId="18cd9cad-01bb-4417-a266-2f39d898080b" valueTypeId="86ab30b4-b16a-4aeb-820d-7715023edd98"/>
+    <refType typeId="b8f7bd0e-110c-47ef-8c16-5d1687ae42a5" valueTypeId="24c03c07-cd9c-4f0f-8431-f22770903a92"/>
+    <selectionType typeId="8ce2fc6a-2c25-428e-8057-8e26e28bf383" valueTypeId="c49a2248-f00b-4108-9b58-2f53edf31b26"/>
+    <listType typeId="d898008d-cbde-4708-8fea-956d0536e1e9" valueTypeId="003ae9f5-9e94-4565-9e13-0c842cda41d6"/>
+    <managerType typeId="82b094ea-bab5-457f-9d6b-a0c704f8706a" valueTypeId="57f9a3e6-4525-45b9-93db-672423e087b2"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fe9a6776-581d-47c1-8e88-f6af3712399f">
+      <name>ВКМ_Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
