@@ -48,10 +48,12 @@
   <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
   <commonPictures>CommonPicture.Скрепка</commonPictures>
   <roles>Role.ВКМ_ОсновнаяРоль</roles>
+  <roles>Role.ВКМ_РольЗапускаМассовоеСозданиеАктов</roles>
   <roles>Role.ВКМ_РольРаботыСОбслуживаниемКлиентов</roles>
   <commonModules>CommonModule.ВКМ_ОбщийМодульВызовСервера</commonModules>
   <commonModules>CommonModule.ВКМ_ТелеграмВызовСервера</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <scheduledJobs>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</scheduledJobs>
   <definedTypes>DefinedType.ВКМ_Денежный</definedTypes>
@@ -71,9 +73,11 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВидыДоговоровКонтрагентов</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>

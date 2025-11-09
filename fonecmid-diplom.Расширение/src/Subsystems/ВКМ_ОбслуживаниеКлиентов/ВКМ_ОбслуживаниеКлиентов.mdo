@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_РольЗапускаМассовоеСозданиеАктов</content>
   <subsystems>ВКМ_Справочники</subsystems>
 </mdclass:Subsystem>

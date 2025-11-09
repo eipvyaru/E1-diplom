@@ -54,6 +54,40 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="f4649872-62e4-4085-b399-34e25d4c8cd3" extendedConfigurationObject="3951295e-fb57-4233-90dd-528866e0808c">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="22fc3d03-cff5-42e4-963a-2365531d78ed" extendedConfigurationObject="d405f01b-78ff-426d-8b27-b0babe2bf59d">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="b6b3c1b2-d1da-42c5-86cb-0b23f6ec8030" extendedConfigurationObject="0fa92a59-d7cb-4a74-829a-9b3e8366b05b">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
