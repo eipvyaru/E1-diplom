@@ -85,14 +85,16 @@
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВидыДоговоровКонтрагентов</enums>
+  <enums>Enum.ВКМ_КатегорияСотрудника</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
   <enums>Enum.ТипыХраненияФайлов</enums>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафика</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
-  <informationRegisters>InformationRegister.ВКМ_ПараметрыРасчетаЗПСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>

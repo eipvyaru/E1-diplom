@@ -23,7 +23,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>InformationRegister.ВКМ_ПараметрыРасчетаЗПСотрудников</registerRecords>
+  <registerRecords>InformationRegister.ВКМ_УсловияОплатыСотрудников</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9e3af829-0a44-4d5f-8d21-a51c2c39b922">
@@ -59,7 +59,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2a33fb18-6917-4ec7-b066-7dddec9d9d57">
-    <name>ВКМ_Процент</name>
+    <name>ВКМ_ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
       <value>Процент за выполненные работы клиентам</value>
@@ -82,6 +82,22 @@
     </synonym>
     <type>
       <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12744425-766e-48c4-8200-3044fec27b98">
+    <name>ВКМ_КатегорияСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ категория сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_КатегорияСотрудника</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

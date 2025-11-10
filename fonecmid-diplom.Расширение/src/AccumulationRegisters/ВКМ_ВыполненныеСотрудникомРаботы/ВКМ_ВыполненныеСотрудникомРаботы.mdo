@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e674860d-7d3c-429c-8fc4-31dcb78a57b7">
+  <producedTypes>
+    <selectionType typeId="74e29b21-04f3-4709-b953-ac2e37fe24ac" valueTypeId="967cdf9a-0929-4154-ade9-c3ae2113382f"/>
+    <listType typeId="155c9b7c-bb9c-48fd-9997-efa7e7e299cf" valueTypeId="e570b6a5-6199-409d-8046-97e6288d73b4"/>
+    <managerType typeId="b3a0c1b2-cc19-4b21-a70f-e5d84a7801e5" valueTypeId="b578abcf-d1c9-4454-8303-a0b15e51bc34"/>
+    <recordSetType typeId="a8c54b90-062d-43fd-aa8a-05ab5905776a" valueTypeId="a3074908-fe64-4803-8aaf-c35807be744e"/>
+    <recordKeyType typeId="be707ddd-27b2-4b0f-954a-5e146a734897" valueTypeId="24747b12-459e-4786-ba20-49b97292094f"/>
+    <recordType typeId="e5f3f126-822c-4637-9581-085e887d03cf" valueTypeId="b5c6eee2-b35a-409c-963a-13627eecd02c"/>
+  </producedTypes>
+  <name>ВКМ_ВыполненныеСотрудникомРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные сотрудником работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6809ac1b-6195-49a9-be23-52006e49ddd5">
+    <name>ВКМ_ЧасовКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часов к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="51d9306e-86e5-453c-b864-d58645147710">
+    <name>ВКМ_СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Денежный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a5f6f888-4ef1-4a66-b162-1697885bd98e">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

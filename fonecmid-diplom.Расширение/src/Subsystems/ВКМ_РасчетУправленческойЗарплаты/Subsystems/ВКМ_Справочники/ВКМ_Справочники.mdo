@@ -14,5 +14,6 @@
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Catalog.ВКМ_Сотрудники</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <parentSubsystem>Subsystem.ВКМ_РасчетУправленческойЗарплаты</parentSubsystem>
 </mdclass:Subsystem>

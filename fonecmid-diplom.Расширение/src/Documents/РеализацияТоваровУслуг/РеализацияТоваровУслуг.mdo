@@ -170,6 +170,17 @@
       </extension>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="45f923be-2c20-4650-9964-dd69ac44039f" extendedConfigurationObject="49dbfd8f-3a71-4bc5-973a-d14dbe25ddf4">
+    <producedTypes>
+      <objectType typeId="fc0644b3-4a51-4636-860e-5b1e99ae1f7d" valueTypeId="f2c7f4af-3dd1-4399-b1e0-5a14a7ca3ab2"/>
+      <rowType typeId="17e6d46d-b7ab-4ea5-b3e2-3941f2ea04b4" valueTypeId="0b317f3d-15fa-4306-8227-81eed859ee18"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
   <templates uuid="510959e2-7f29-4519-a335-387767566c55">
     <name>ПФ_MXL_АктОказанныхУслуг</name>
     <synonym>

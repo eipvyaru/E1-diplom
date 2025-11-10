@@ -9,10 +9,10 @@
     <recordType typeId="8621d3f7-5c80-4e3e-a420-9801baa9e434" valueTypeId="e51f2d90-db2e-4ab4-8126-850c834b41e2"/>
     <recordManagerType typeId="f2f2efe3-b40b-496e-aaa2-78cf1e101ce1" valueTypeId="92480493-a29d-46a4-92ff-8c3da73d50ed"/>
   </producedTypes>
-  <name>ВКМ_ПараметрыРасчетаЗПСотрудников</name>
+  <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
     <key>ru</key>
-    <value>Параметры расчета ЗП Сотрудников</value>
+    <value>Условия Оплаты Сотрудников </value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -35,7 +35,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="a7174a64-fe89-4a20-8885-4da5201cfcd4">
-    <name>ВКМ_Процент</name>
+    <name>ВКМ_ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
       <value>Процент за выполненные работы клиентам</value>
