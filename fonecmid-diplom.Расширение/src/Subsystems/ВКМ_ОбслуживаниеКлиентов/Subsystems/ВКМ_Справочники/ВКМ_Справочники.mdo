@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
-  <content>Catalog.ВКМ_Сотрудники</content>
   <content>Role.ВКМ_РольРаботыСОбслуживаниемКлиентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>

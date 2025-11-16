@@ -97,7 +97,7 @@
       <value>Специалист</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВКМ_Сотрудники</types>
+      <types>CatalogRef.ВКМ_Сотрудник</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ПараметрыРасчетаЗПСотрудников</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
   <subsystems>ВКМ_Справочники</subsystems>
 </mdclass:Subsystem>

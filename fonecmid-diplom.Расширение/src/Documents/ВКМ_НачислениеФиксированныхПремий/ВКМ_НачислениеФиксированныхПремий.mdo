@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12153c73-e75a-4c7d-bd9a-bb9bf2c26e4b">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6bfe9a11-ffd8-4a25-b249-0addc855bc27" extendedConfigurationObject="92516f68-e5c1-4e2e-9e53-05d6eaf9467c">
   <producedTypes>
-    <objectType typeId="1fcd73d2-0f62-441a-9952-70682be700b7" valueTypeId="ea4af265-e174-4db8-9bfa-96e40460a42f"/>
-    <refType typeId="7a547078-6222-4435-8a3c-2c402f51a9ac" valueTypeId="302e538b-f0a8-4b70-8ba1-3c171d043359"/>
-    <selectionType typeId="e01f8125-2918-482e-8faf-0492f17a44ba" valueTypeId="bc9774d0-eb25-48a6-bd4c-800203a06809"/>
-    <listType typeId="b5e99115-cee4-446b-8864-a39f1c280b0a" valueTypeId="9d7b3b22-0d48-4423-b925-5ec10da96c9e"/>
-    <managerType typeId="5542c49c-9c4e-4a78-b026-ecd34d48d7a1" valueTypeId="120e11b5-e7e2-4769-a308-58b958f40743"/>
+    <objectType typeId="d725ca63-7e06-417f-802b-b87dd106c2d4" valueTypeId="6e312e6e-5dcc-46c5-9149-6c8e423b8369"/>
+    <refType typeId="94ac3716-ad61-438a-870b-cdd367d9f388" valueTypeId="46991795-a647-4781-8426-0af1d64a5abb"/>
+    <selectionType typeId="da7d00d1-bd13-4844-9947-6a76cad3188e" valueTypeId="b5bd7b5e-4a9e-473e-b215-e7794c401e24"/>
+    <listType typeId="415b5ade-9876-46a4-bfe6-979263c07eb1" valueTypeId="fc14304c-072c-4a6f-a563-53e3e6380b61"/>
+    <managerType typeId="4ac6e41d-a000-4c8c-a594-7699137b63fc" valueTypeId="4dfc69b0-000f-462c-a7a7-5f890a638ef3"/>
   </producedTypes>
   <name>ВКМ_НачислениеФиксированныхПремий</name>
-  <synonym>
-    <key>ru</key>
-    <value>Начисление фиксированных премий</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_НачислениеФиксированныхПремий.StandardAttribute.Number</inputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>Use</createOnInput>
-  <fullTextSearch>Use</fullTextSearch>
-  <numberType>String</numberType>
-  <numberLength>9</numberLength>
-  <numberAllowedLength>Variable</numberAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
-  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
-  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
-  <postInPrivilegedMode>true</postInPrivilegedMode>
-  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
 </mdclass:Document>

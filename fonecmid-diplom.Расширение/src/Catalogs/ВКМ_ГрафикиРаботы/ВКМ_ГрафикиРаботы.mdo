@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2f07875-9c5c-479b-bf57-bc04745f6011">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="047c0e95-c35d-4253-8f05-9d434dcf1338" extendedConfigurationObject="2bae9035-f528-4693-8c0b-66b7f79a61db">
   <producedTypes>
-    <objectType typeId="18cd9cad-01bb-4417-a266-2f39d898080b" valueTypeId="86ab30b4-b16a-4aeb-820d-7715023edd98"/>
-    <refType typeId="b8f7bd0e-110c-47ef-8c16-5d1687ae42a5" valueTypeId="24c03c07-cd9c-4f0f-8431-f22770903a92"/>
-    <selectionType typeId="8ce2fc6a-2c25-428e-8057-8e26e28bf383" valueTypeId="c49a2248-f00b-4108-9b58-2f53edf31b26"/>
-    <listType typeId="d898008d-cbde-4708-8fea-956d0536e1e9" valueTypeId="003ae9f5-9e94-4565-9e13-0c842cda41d6"/>
-    <managerType typeId="82b094ea-bab5-457f-9d6b-a0c704f8706a" valueTypeId="57f9a3e6-4525-45b9-93db-672423e087b2"/>
+    <objectType typeId="d8b8da7a-0a56-4e38-b3e3-e47bb2bc5e47" valueTypeId="a0195aec-2468-4c38-ae34-314edd09a52a"/>
+    <refType typeId="bdbe74e5-31f2-4a2e-a09f-877bed79ceb7" valueTypeId="a9f7537e-cf70-4461-b22a-1814146c9702"/>
+    <selectionType typeId="015d6f21-966b-448b-930e-e54b467f4b57" valueTypeId="8449e52c-5b7f-422c-a09d-131cfa164476"/>
+    <listType typeId="522ff071-7666-4faa-aa94-91e8d3233e86" valueTypeId="04062d7e-b118-44e5-ba8a-566df03c69e7"/>
+    <managerType typeId="bc59c8d4-8e39-42f1-8e86-242a15bfeac7" valueTypeId="4e5d11cc-4924-489e-8683-0fd8e9c99a10"/>
   </producedTypes>
   <name>ВКМ_ГрафикиРаботы</name>
-  <synonym>
-    <key>ru</key>
-    <value>Графики работы</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>Use</createOnInput>
-  <fullTextSearch>Use</fullTextSearch>
-  <levelCount>2</levelCount>
-  <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
-  <codeType>String</codeType>
-  <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="fe9a6776-581d-47c1-8e88-f6af3712399f">
-      <name>ВКМ_Пятидневка</name>
-      <description>Пятидневка</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-  </predefined>
-  <editType>InDialog</editType>
-  <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

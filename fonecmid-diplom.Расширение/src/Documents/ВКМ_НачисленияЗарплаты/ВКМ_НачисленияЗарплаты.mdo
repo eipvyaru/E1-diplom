@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e88a7b2-0694-489b-881a-9d371e961f42" extendedConfigurationObject="a6bc799c-62fa-4d53-b0b8-1a0b2851ac6f">
+  <producedTypes>
+    <objectType typeId="d42c5e42-358d-4406-89aa-10768f8ef20e" valueTypeId="69a92f15-b8d6-4192-b5f0-c5cc25b19e52"/>
+    <refType typeId="c8351672-921d-45fd-b163-40856515fd43" valueTypeId="702c8bfd-968b-4e0a-a33f-a75f6432cded"/>
+    <selectionType typeId="5d7d73b2-4756-438b-a686-bf3e86467e5b" valueTypeId="f1a82fde-c42d-451d-ad42-228a301e5309"/>
+    <listType typeId="4ff8cf3a-ba2d-47e6-ae79-0fb8e72ab652" valueTypeId="9e3352fb-9d51-4702-9c6b-113dbadb940f"/>
+    <managerType typeId="7f6a12be-63d6-4443-890b-d04fc6496475" valueTypeId="f9def628-64db-42a1-9953-ef5ff2530809"/>
+  </producedTypes>
+  <name>ВКМ_НачисленияЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <attributes uuid="314d7ea4-7be3-478c-8ad6-28dfed921ec0" extendedConfigurationObject="09d6aca3-c39c-4dc8-8fe8-2ed48ec58dc4">
+    <name>ВКМ_Период</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3d64fd06-b2ee-4c6b-a153-4147ce858b89" extendedConfigurationObject="8ac18b6e-dfcc-4573-8672-86d14dcdbcfd">
+    <name>ВКМ_ЗаполнитьОкладСотрудников</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="6de089d3-767f-4c4d-af2d-ecfd0e9e0fd6" extendedConfigurationObject="f0ed7fc9-eec2-4729-8ede-242dfb3855e6">
+    <producedTypes>
+      <objectType typeId="389d2afd-2a08-40c7-96b4-038fc7ab707f" valueTypeId="d012d345-ab6c-4334-9b9c-0b8cb4d0df23"/>
+      <rowType typeId="fa8c4a7b-5c8f-4a4b-bf8f-afefaf97eaac" valueTypeId="c0726e08-e364-494e-9840-0d20e802d209"/>
+    </producedTypes>
+    <name>ВКМ_Начисления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="f0f3ada4-79e4-434b-83af-5dc752c5a1ae" extendedConfigurationObject="d7c331ee-835e-4ffb-a60c-e0254aa7dbb2">
+      <name>ВКМ_ДатаНачала</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="6f5653d1-9054-4378-9e49-4c9f6af28c19" extendedConfigurationObject="73ee7708-a301-460f-ac8e-b21a9f5a19ab">
+      <name>ВКМ_ДатаОкончания</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="29774789-e75e-40b3-a423-452ec456b074" extendedConfigurationObject="f26183b8-2327-48ca-93b5-33d98c5828fd">
+      <name>ВКМ_Сотрудник</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ВКМ_Сотрудник</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="114f9ef8-c3be-4344-a772-81bf6166ac5e" extendedConfigurationObject="c56c7e69-e2a3-46fe-a18c-54a5c0a4ce9b">
+      <name>ВКМ_ВидРасчета</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

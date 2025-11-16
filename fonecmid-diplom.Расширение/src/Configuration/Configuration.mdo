@@ -67,7 +67,7 @@
   <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <catalogs>Catalog.ВКМ_ГрафикиРаботы</catalogs>
   <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВКМ_Сотрудник</catalogs>
   <catalogs>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -78,8 +78,8 @@
   <catalogs>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
-  <documents>Document.ВКМ_НачислениеЗаработнойПлаты</documents>
   <documents>Document.ВКМ_НачислениеФиксированныхПремий</documents>
+  <documents>Document.ВКМ_НачисленияЗарплаты</documents>
   <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
   <documents>Document.ВКМ_ПараметрыРасчетаЗПСотрудников</documents>
   <documents>Document.ЗаказПокупателя</documents>

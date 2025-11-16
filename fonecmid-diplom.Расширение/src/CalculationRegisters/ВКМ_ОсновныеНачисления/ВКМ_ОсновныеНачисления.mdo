@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce00e86f-2e8a-42a3-ae7c-66553831e7ed">
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc601242-4c96-42a4-9514-14b80a63fd3c" extendedConfigurationObject="6136d533-0951-48d2-896f-51f56dca3c72">
   <producedTypes>
-    <selectionType typeId="3c3f635c-2d67-4e51-be2e-45327f113131" valueTypeId="031d587c-9021-4710-82f1-ed3c23fbd74f"/>
-    <listType typeId="f9cb0f04-cfa7-4cc3-bf35-c1629fada125" valueTypeId="b085b2c4-d697-4005-9223-43f6526313f2"/>
-    <managerType typeId="d051f831-acd8-4da8-98ee-d60939e91917" valueTypeId="1e2c1501-21ee-4235-9395-d74c5b608bd0"/>
-    <recordSetType typeId="a90595f4-83cb-468b-91a2-37f92696a5d4" valueTypeId="4d65584a-2e28-4918-bacd-27bb42064e95"/>
-    <recordKeyType typeId="7227607e-02e7-4943-8e27-4ecf440e0987" valueTypeId="0aec2c09-063d-42b0-8f9e-71b941d87be0"/>
-    <recordType typeId="4803121c-8052-439d-b124-bb005fd5f2f3" valueTypeId="335b8cf5-80f1-440e-a253-8e7d2a7e43c5"/>
-    <recalcsType typeId="4fba4258-5276-44b5-a3b1-8a69d1eeb0bb" valueTypeId="186ebf8d-c974-4139-afa3-c7456c0c1f0b"/>
+    <selectionType typeId="76bc19d3-ab7e-47ba-9ce7-914e52eccffb" valueTypeId="6e353faf-c576-417c-a47a-b5e30595eb69"/>
+    <listType typeId="b87cc06b-e2ff-4fdf-9f13-f16f2498cd8a" valueTypeId="97f62084-6708-442c-90b3-2ef3174cdeb5"/>
+    <managerType typeId="ad3dfb75-f1f6-41ab-a22e-7b25ecea580c" valueTypeId="aa599763-2bb1-4c62-ac9b-9d5192449285"/>
+    <recordSetType typeId="a14f610b-337f-42f0-af44-54b3e7e0c059" valueTypeId="1c626d8f-beeb-427a-8333-bd44564dc1c3"/>
+    <recordKeyType typeId="90c7b9fa-934a-49b5-b79b-0e3389089dd0" valueTypeId="06438710-ff4b-41b5-bee2-63f40f22c5fe"/>
+    <recordType typeId="8775f91b-d7e5-45ad-b9a8-8a8978955200" valueTypeId="12f4a545-852b-4c54-95b0-72ca832ffe22"/>
+    <recalcsType typeId="33730ac6-3ca0-42e5-8f13-17f6c753b235" valueTypeId="abb1f195-7f92-43f6-aa77-f8fde5a29da2"/>
   </producedTypes>
   <name>ВКМ_ОсновныеНачисления</name>
-  <synonym>
-    <key>ru</key>
-    <value>Основные начисления</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CalculationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <periodicity>Month</periodicity>
-  <actionPeriod>true</actionPeriod>
-  <basePeriod>true</basePeriod>
-  <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
-  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
-  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ВКМ_Дата</scheduleDate>
-  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
 </mdclass:CalculationRegister>
