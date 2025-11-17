@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92516f68-e5c1-4e2e-9e53-05d6eaf9467c">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92516f68-e5c1-4e2e-9e53-05d6eaf9467c">
   <producedTypes>
     <objectType typeId="7d0f11f6-9ee9-4e2b-82a6-8db8d20013f9" valueTypeId="3fabdd09-1fc0-4ecc-8101-815ab054ff68"/>
     <refType typeId="3760ab47-3b5c-469b-82e7-fb449b666c07" valueTypeId="33c3063d-8003-4634-b134-4a35efd62848"/>
@@ -26,4 +26,75 @@
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b72543f7-eb59-4f46-bc05-33d5088ac8a8">
+    <name>ВКМ_Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="74d184b0-d7de-453e-a130-e74601ef0cb4">
+    <producedTypes>
+      <objectType typeId="43008fea-559a-440d-bdf1-10c0a8ad8259" valueTypeId="56c03a32-49bb-47b1-97b4-f98e6bfcd2ba"/>
+      <rowType typeId="e19497d1-296e-4b8b-9c3b-31d25e2dd411" valueTypeId="038b98c9-d8be-47f8-b522-64ab54ef900c"/>
+    </producedTypes>
+    <name>ВКМ_СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+    <attributes uuid="2adb0cec-ee25-421b-a2a7-aa561fc8f423">
+      <name>ВКМ_Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Сотрудник</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d538a3e-0035-4128-806e-f77e6629e33c">
+      <name>ВКМ_СуммаПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

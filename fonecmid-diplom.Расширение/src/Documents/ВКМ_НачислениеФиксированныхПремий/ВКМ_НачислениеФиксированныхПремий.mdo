@@ -13,4 +13,61 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="5632b486-e3ef-453e-a419-a0df8476f29e" extendedConfigurationObject="b72543f7-eb59-4f46-bc05-33d5088ac8a8">
+    <name>ВКМ_Период</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="a078b142-8098-4bd8-a532-53d4d919dc40" extendedConfigurationObject="74d184b0-d7de-453e-a130-e74601ef0cb4">
+    <producedTypes>
+      <objectType typeId="af8ff0e4-ad30-41a2-9d52-b28f36ac9f50" valueTypeId="2851a08b-452a-4b4c-ae30-0d1917341520"/>
+      <rowType typeId="540698c6-6f2d-40d4-8adc-42497bb91552" valueTypeId="a2f2e9da-34c9-45d1-8a4a-4ba47bdaa532"/>
+    </producedTypes>
+    <name>ВКМ_СписокСотрудников</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="1308ab8b-3c65-44fe-9061-fb7c480795e2" extendedConfigurationObject="2adb0cec-ee25-421b-a2a7-aa561fc8f423">
+      <name>ВКМ_Сотрудник</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ВКМ_Сотрудник</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="e50fe8bd-8416-4af1-9368-0768a5a049de" extendedConfigurationObject="9d538a3e-0035-4128-806e-f77e6629e33c">
+      <name>ВКМ_СуммаПремии</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

@@ -18,7 +18,7 @@
   <periodicity>Month</periodicity>
   <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
-  <attributes uuid="29cc6351-20b4-4b77-bef0-4eed98377a52">
+  <resources uuid="83a80d20-1ff0-4544-8c27-599c99fe0c47">
     <name>Результат</name>
     <synonym>
       <key>ru</key>
@@ -34,7 +34,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
+  </resources>
   <dimensions uuid="a14bd70c-97a3-43bb-ad38-2bf1619b9a6f">
     <name>ВКМ_Сотрудник</name>
     <synonym>

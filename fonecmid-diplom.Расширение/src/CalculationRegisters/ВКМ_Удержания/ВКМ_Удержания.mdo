@@ -15,7 +15,7 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="476445af-ab9b-4007-b143-a8318a472b76" extendedConfigurationObject="29cc6351-20b4-4b77-bef0-4eed98377a52">
+  <resources uuid="10073157-edf0-4a59-8cc1-ea516082594b" extendedConfigurationObject="83a80d20-1ff0-4544-8c27-599c99fe0c47">
     <name>Результат</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -31,7 +31,7 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-  </attributes>
+  </resources>
   <dimensions uuid="87da5112-60ae-4a09-a2a6-28f2b46a652c" extendedConfigurationObject="a14bd70c-97a3-43bb-ad38-2bf1619b9a6f">
     <name>ВКМ_Сотрудник</name>
     <objectBelonging>Adopted</objectBelonging>
