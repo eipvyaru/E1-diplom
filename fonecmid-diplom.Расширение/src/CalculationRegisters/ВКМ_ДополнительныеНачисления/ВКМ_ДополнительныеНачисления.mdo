@@ -15,4 +15,34 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <resources uuid="f8e96975-ae72-496a-9c24-151c95c9e4f2" extendedConfigurationObject="6fec2e70-bbda-4e73-a034-ce00fb06f90c">
+    <name>Результат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>16</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="80f249d6-56f9-4dca-819c-4c91fa0f4361" extendedConfigurationObject="672d313a-78c7-411b-bc87-f6d9a6b645dc">
+    <name>ВКМ_Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_Сотрудник</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
 </mdclass:CalculationRegister>

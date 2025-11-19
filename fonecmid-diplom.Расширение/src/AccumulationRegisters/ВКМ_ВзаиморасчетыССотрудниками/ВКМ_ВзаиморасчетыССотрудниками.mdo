@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa2f95a5-3ee6-4bf4-9440-1bce2fa4fc5f" extendedConfigurationObject="1f133c02-af24-49b7-81a4-4f07667cfd7e">
+  <producedTypes>
+    <selectionType typeId="0b064d15-b136-4561-b20c-1ef960f8059f" valueTypeId="773c85f8-5494-4e1f-9069-b31e3674b415"/>
+    <listType typeId="5a2b183f-e4ce-4be2-af19-76ae516a1f5d" valueTypeId="04c698ff-37ff-4c7c-bc04-408dbcd7ec32"/>
+    <managerType typeId="3482944b-4156-42a7-8f7e-b317f7d62636" valueTypeId="eadf3ea1-66aa-4166-812e-369dacb292d1"/>
+    <recordSetType typeId="8f14c623-9774-4aa6-92e5-ac406f5dd7fa" valueTypeId="7055a090-87cd-4fd6-9f3a-9124bc7d3046"/>
+    <recordKeyType typeId="f5b09d12-3822-4533-96c3-e67f9fec8200" valueTypeId="5020684f-9683-4c7d-9da9-ae2abfb07218"/>
+    <recordType typeId="21c7a1b7-e0da-4e73-ba60-70ebd2c23d8a" valueTypeId="baa383af-d12e-48e1-9782-2a44ef269061"/>
+  </producedTypes>
+  <name>ВКМ_ВзаиморасчетыССотрудниками</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <resources uuid="ea13bf39-bbf6-4432-8806-fbd10905bc32" extendedConfigurationObject="57c92a87-04b4-444f-8044-9ee84e2fa0f8">
+    <name>ВКМ_Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>16</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="14e61896-d530-4bbc-99b7-7ed77c47b4a4" extendedConfigurationObject="e9a7b1ce-7e3b-460f-9d80-75f22ed42f58">
+    <name>ВКМ_Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_Сотрудник</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

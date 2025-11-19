@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="43292887-5bce-458f-8301-b0895fac2cfb" extendedConfigurationObject="8e129c34-f6df-400f-a2ca-4a51f5f94ca3">
+  <producedTypes>
+    <objectType typeId="2363517e-3b09-404a-a438-4c2cefe09318" valueTypeId="6d3a3d20-0f86-4ec2-a32e-a56df23dddd3"/>
+    <refType typeId="69f850e2-4fbb-4df3-80b7-33ca567fbc2e" valueTypeId="19a282b5-0dbe-4f99-92f0-c78b9ebf9fdd"/>
+    <selectionType typeId="261b34f2-5f3e-4ba0-9dee-0f59cf6a5541" valueTypeId="8f39447b-aa6c-443e-8086-106df007a086"/>
+    <listType typeId="d8a059b5-1ce0-4e2d-9461-61890ba9afe4" valueTypeId="22c00a2f-b362-4839-a0ea-738ae6affc13"/>
+    <managerType typeId="71b87e25-daa5-455b-a9c9-1898742b0a48" valueTypeId="61f60b0d-7500-4da1-b0ae-41f9fde149e2"/>
+  </producedTypes>
+  <name>ВКМ_ВыплатаЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+</mdclass:Document>

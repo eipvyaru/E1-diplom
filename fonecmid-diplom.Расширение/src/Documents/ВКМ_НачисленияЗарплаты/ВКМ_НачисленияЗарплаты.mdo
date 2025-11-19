@@ -14,6 +14,7 @@
     <objectModule>Extended</objectModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <attributes uuid="314d7ea4-7be3-478c-8ad6-28dfed921ec0" extendedConfigurationObject="09d6aca3-c39c-4dc8-8fe8-2ed48ec58dc4">
