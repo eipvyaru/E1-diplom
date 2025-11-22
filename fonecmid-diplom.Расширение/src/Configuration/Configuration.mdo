@@ -79,6 +79,7 @@
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documents>Document.ВКМ_НачислениеФиксированныхПремий</documents>
   <documents>Document.ВКМ_НачисленияЗарплаты</documents>
   <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5dd468e-c8f6-4c98-bf72-a29ca9595f91" extendedConfigurationObject="8c2418ea-9872-4777-97f1-5d780355052d">
+  <producedTypes>
+    <objectType typeId="bc29aedc-c4b1-40f7-83c1-95718196c3d1" valueTypeId="d32fca18-2950-42f9-863b-0d9823ed9731"/>
+    <refType typeId="4a184ef2-18fd-475f-ace5-b03e34ea9d90" valueTypeId="0f60efcb-910c-499d-b2fb-58f7cf9f18c9"/>
+    <selectionType typeId="aed20cac-76f9-4c39-84fc-8ff3c5513a4b" valueTypeId="367a2bc1-f331-48d8-934d-84c57b4e17e5"/>
+    <listType typeId="9fa65c5f-9661-40a7-993f-5c98c028729d" valueTypeId="67ca9e35-f455-42a1-a076-38298246dba8"/>
+    <managerType typeId="d47247f1-638c-40e5-9d37-7f3ba35406e6" valueTypeId="cc9a49ab-eb95-4e81-b752-a2dcf72e6f73"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпусков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>
