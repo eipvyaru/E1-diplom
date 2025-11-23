@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a93b1513-27dd-4d99-8ef9-8f55b188322a">
+  <producedTypes>
+    <selectionType typeId="3a42c250-6c6e-4d1c-8de1-d8f096fec71d" valueTypeId="dfb04ab4-77dc-4ac8-b75c-bd60ed39f17b"/>
+    <listType typeId="4cc11a00-7ebd-42e6-9eb2-e67f827dc533" valueTypeId="22448eb8-90b7-4857-bf2a-2a41c36c9d6f"/>
+    <managerType typeId="ade931fa-0adc-4ebe-8480-6ba458146194" valueTypeId="c63a3c07-c56c-44fe-9d6d-c1c6c69cc20c"/>
+    <recordSetType typeId="3d4a1552-eafa-49e9-9063-0671e147b2d0" valueTypeId="07210688-9930-49b9-b2e8-9a37e0e17a63"/>
+    <recordKeyType typeId="7dd75ddd-fa85-453e-ae29-fd624f850ce2" valueTypeId="d3593785-4ef0-465e-9d78-a2df01fa538b"/>
+    <recordType typeId="56752f17-ecc3-42fc-a3f3-4396daff0a20" valueTypeId="dc4947d4-b1bd-4688-bf24-af3158eddd2b"/>
+    <recordManagerType typeId="da55c060-e7ca-4c0f-988a-5f79fd352916" valueTypeId="0d42b6fd-d567-4a08-874a-2613545f4b01"/>
+  </producedTypes>
+  <name>ВКМ_ПлановыеОтпуски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые отпуски</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05d05fe3-de89-4bab-97de-efed0c4794a4">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d8e78640-e0a3-43e7-baa3-09e1d30200dd">
+    <name>ВКМ_Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4497fcc5-2408-4e06-916a-91daa5ae7a40">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:InformationRegister>

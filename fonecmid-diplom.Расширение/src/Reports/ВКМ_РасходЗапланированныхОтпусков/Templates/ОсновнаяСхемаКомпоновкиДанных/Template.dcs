@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДнейОтпускаПоПлану</dataPath>
+			<field>ДнейОтпускаПоПлану</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дней отпуска по плану</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактическихДнейОтпуска</dataPath>
+			<field>ФактическихДнейОтпуска</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фактических дней отпуска</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВКМ_ОсновныеНачисленияДанныеГрафика.ВКМ_Сотрудник КАК ВКМ_Сотрудник,
+	СУММА(ВКМ_ОсновныеНачисленияДанныеГрафика.ДнейОтработано) КАК ДнейОтработано
+ПОМЕСТИТЬ ВТФактОтп
+ИЗ
+	РегистрРасчета.ВКМ_ОсновныеНачисления.ДанныеГрафика(ГОД(ПериодДействия) = ГОД(&amp;ВКМ_Год)) КАК ВКМ_ОсновныеНачисленияДанныеГрафика
+ГДЕ
+	ВКМ_ОсновныеНачисленияДанныеГрафика.ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ВКМ_ОсновныеНачисления.ВКМ_Отпуск)
+
+СГРУППИРОВАТЬ ПО
+	ВКМ_ОсновныеНачисленияДанныеГрафика.ВКМ_Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВКМ_ПлановыеОтпуски.ВКМ_Сотрудник КАК ВКМ_Сотрудник,
+	СУММА(ВКМ_ПлановыеОтпуски.Значение) КАК Значение
+ПОМЕСТИТЬ ВТОтпПлан
+ИЗ
+	РегистрСведений.ВКМ_ПлановыеОтпуски КАК ВКМ_ПлановыеОтпуски
+ГДЕ
+	ГОД(ВКМ_ПлановыеОтпуски.ВКМ_Дата) = ГОД(&amp;ВКМ_Год)
+
+СГРУППИРОВАТЬ ПО
+	ВКМ_ПлановыеОтпуски.ВКМ_Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(ВТОтпПлан.ВКМ_Сотрудник, ВТФактОтп.ВКМ_Сотрудник) КАК Сотрудник,
+	ВТОтпПлан.Значение КАК ДнейОтпускаПоПлану,
+	ВТФактОтп.ДнейОтработано КАК ФактическихДнейОтпуска
+ИЗ
+	ВТОтпПлан КАК ВТОтпПлан
+		ПОЛНОЕ СОЕДИНЕНИЕ ВТФактОтп КАК ВТФактОтп
+		ПО (ВТОтпПлан.ВКМ_Сотрудник = ВТФактОтп.ВКМ_Сотрудник)</query>
+	</dataSet>
+	<parameter>
+		<name>ВКМ_Год</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Год</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ДФ=yyyy</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</inputParameters>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расход запланированных отпусков</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДнейОтпускаПоПлану</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФактическихДнейОтпуска</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВКМ_Год</dcscor:parameter>
+					<dcsset:userSettingID>1601414b-ae80-4fcc-a209-4cd8f8eaabc5</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расход запланированных отпусков</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

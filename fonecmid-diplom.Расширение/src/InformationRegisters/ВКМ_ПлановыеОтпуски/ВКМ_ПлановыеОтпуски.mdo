@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d7024a2-2ed8-4cf8-b93e-9450e7d6fc96" extendedConfigurationObject="a93b1513-27dd-4d99-8ef9-8f55b188322a">
+  <producedTypes>
+    <selectionType typeId="030f9e22-a80f-493e-b07f-013d008120a1" valueTypeId="f23a91ce-6726-4fd5-baa4-1af2a349bc3f"/>
+    <listType typeId="91ba7033-c3aa-42ae-8eaf-4c67b6dc2b06" valueTypeId="433625c5-21e6-47bc-9c41-7ec73055b8c0"/>
+    <managerType typeId="8e267026-c507-4d37-a857-9a780cbd6794" valueTypeId="267e3a55-203b-4441-83db-f62b6bc19424"/>
+    <recordSetType typeId="e0fa1446-93b8-472d-85f7-7db1cb80eed4" valueTypeId="21596a07-b2a0-4094-872f-584b5cbe8de1"/>
+    <recordKeyType typeId="eab7ef11-d471-4508-b9f3-fbb29375c901" valueTypeId="54465dba-d4ee-4747-8cfd-cfc37bca423a"/>
+    <recordType typeId="61d9aadd-cbb0-4a37-a8e6-ce32db18870f" valueTypeId="9eef2af3-066a-46ac-9633-d71f9a737e82"/>
+    <recordManagerType typeId="690ecf7d-cfa5-4430-abca-b04a2d3f04d6" valueTypeId="a007d4e8-2588-4d24-9556-8b7c24efac85"/>
+  </producedTypes>
+  <name>ВКМ_ПлановыеОтпуски</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="ddd3ec28-65b8-4fbe-b509-9c175acae083" extendedConfigurationObject="05d05fe3-de89-4bab-97de-efed0c4794a4">
+    <name>Значение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="1c5a5e87-8879-47a9-bb33-4cfcdcd483d9" extendedConfigurationObject="d8e78640-e0a3-43e7-baa3-09e1d30200dd">
+    <name>ВКМ_Дата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="e0491da6-bf51-456e-9dbc-41090e83b83d" extendedConfigurationObject="4497fcc5-2408-4e06-916a-91daa5ae7a40">
+    <name>ВКМ_Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_Сотрудник</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

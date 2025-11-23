@@ -1380,6 +1380,7 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_ПлановыеОтпуски</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
