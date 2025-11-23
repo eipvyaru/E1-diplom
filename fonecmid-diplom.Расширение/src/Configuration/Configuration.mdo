@@ -92,11 +92,14 @@
   <enums>Enum.ВКМ_КатегорияСотрудника</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
   <enums>Enum.ТипыХраненияФайлов</enums>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_ОтчетАнализВыставленныхАктов</reports>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафика</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_АктыРеализацииУслуг</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>

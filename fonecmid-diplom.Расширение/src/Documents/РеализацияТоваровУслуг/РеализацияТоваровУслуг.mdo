@@ -15,6 +15,7 @@
     <managerModule>Extended</managerModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <registerRecords>AccumulationRegister.ВКМ_АктыРеализацииУслуг</registerRecords>
   <attributes uuid="65fa6835-d8e3-45d9-a8fd-ed6ada8896db" extendedConfigurationObject="56e1be80-538e-4a1a-bac3-d0265e273da1">
     <name>Договор</name>
     <objectBelonging>Adopted</objectBelonging>
