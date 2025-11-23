@@ -13,5 +13,6 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Role.ВКМ_РольКадровикРасчетчик</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
   <subsystems>ВКМ_Справочники</subsystems>
 </mdclass:Subsystem>
