@@ -1,63 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e674860d-7d3c-429c-8fc4-31dcb78a57b7">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="72b8cd35-2db9-4cef-9132-95c33d8571d7" extendedConfigurationObject="0da886cd-8b22-41d0-9a52-2db879fb29cd">
   <producedTypes>
-    <selectionType typeId="74e29b21-04f3-4709-b953-ac2e37fe24ac" valueTypeId="967cdf9a-0929-4154-ade9-c3ae2113382f"/>
-    <listType typeId="155c9b7c-bb9c-48fd-9997-efa7e7e299cf" valueTypeId="e570b6a5-6199-409d-8046-97e6288d73b4"/>
-    <managerType typeId="b3a0c1b2-cc19-4b21-a70f-e5d84a7801e5" valueTypeId="b578abcf-d1c9-4454-8303-a0b15e51bc34"/>
-    <recordSetType typeId="a8c54b90-062d-43fd-aa8a-05ab5905776a" valueTypeId="a3074908-fe64-4803-8aaf-c35807be744e"/>
-    <recordKeyType typeId="be707ddd-27b2-4b0f-954a-5e146a734897" valueTypeId="24747b12-459e-4786-ba20-49b97292094f"/>
-    <recordType typeId="e5f3f126-822c-4637-9581-085e887d03cf" valueTypeId="b5c6eee2-b35a-409c-963a-13627eecd02c"/>
+    <selectionType typeId="d739aa65-4859-457a-a851-2471113922be" valueTypeId="d4bf607f-fbb1-4081-80c4-8e6d3d053c1e"/>
+    <listType typeId="0d24462e-6597-43b8-b4e4-b575b1d17681" valueTypeId="bc204f30-87aa-4177-8d09-fce40677b327"/>
+    <managerType typeId="074ef98d-5356-4286-9251-077f1124698a" valueTypeId="3395f9b4-97ae-406d-8290-8c27af5dee11"/>
+    <recordSetType typeId="d2de1c40-5319-40be-ad34-9906ea114fac" valueTypeId="a04c63ce-2332-40f6-b536-06e1cee3917b"/>
+    <recordKeyType typeId="fe452d04-789f-4745-b920-f20667369d17" valueTypeId="f6557d0c-af13-412f-b9d6-00fa58810ba5"/>
+    <recordType typeId="cd4060fc-09ce-4404-96ec-566f31945412" valueTypeId="a7690737-8fd1-4ddb-a807-acf49d9006a7"/>
   </producedTypes>
   <name>ВКМ_ВыполненныеСотрудникомРаботы</name>
-  <synonym>
-    <key>ru</key>
-    <value>Выполненные сотрудником работы</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="6809ac1b-6195-49a9-be23-52006e49ddd5">
-    <name>ВКМ_ЧасовКОплате</name>
-    <synonym>
-      <key>ru</key>
-      <value>Часов к оплате</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>8</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="51d9306e-86e5-453c-b864-d58645147710">
-    <name>ВКМ_СуммаКОплате</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма к оплате</value>
-    </synonym>
-    <type>
-      <types>DefinedType.ВКМ_Денежный</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <dimensions uuid="a5f6f888-4ef1-4a66-b162-1697885bd98e">
-    <name>ВКМ_Сотрудник</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сотрудник</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_Сотрудник</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
 </mdclass:AccumulationRegister>

@@ -49,6 +49,7 @@
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
   <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
   <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.ВКМ_ОсновнаяРоль</roles>
   <roles>Role.ВКМ_РольЗапускаМассовоеСозданиеАктов</roles>
   <roles>Role.ВКМ_РольКадровикРасчетчик</roles>
@@ -101,6 +102,7 @@
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ПлановыеОтпуски</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ДвоичныеДанныеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_АктыРеализацииУслуг</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>

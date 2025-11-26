@@ -10,7 +10,7 @@
     <typeExtension>
       <types>
         <state>Extended</state>
-        <type>CatalogObject.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</type>
+        <type>CatalogRef.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</type>
       </types>
     </typeExtension>
   </extension>

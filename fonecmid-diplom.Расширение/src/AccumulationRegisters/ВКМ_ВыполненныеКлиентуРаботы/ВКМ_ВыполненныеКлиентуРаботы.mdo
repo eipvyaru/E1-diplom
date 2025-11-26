@@ -1,88 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a81f315-0fcd-485f-94f5-cd0dbbe1a9f2">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1276a6a3-170e-490a-95cd-a609ee920b6d" extendedConfigurationObject="9712a654-51ea-4d27-b451-f5d6583bb6a8">
   <producedTypes>
-    <selectionType typeId="cb329d8a-47d5-481e-9e7c-859f1a2f922f" valueTypeId="c5f3ec9a-786f-4940-92df-5fa67f562178"/>
-    <listType typeId="e03761f3-b977-410f-b029-513d8d44d141" valueTypeId="dab6e28a-9e33-4674-8d50-0eb84b479751"/>
-    <managerType typeId="6eb00920-8b52-4b45-beaf-a46ac7da28f8" valueTypeId="fc994622-a464-43f0-a097-d32de365a033"/>
-    <recordSetType typeId="b286ac3c-3200-410b-8a88-5e74e6101f75" valueTypeId="e8f99d77-613a-4c1f-818a-c6d9c1dcc2de"/>
-    <recordKeyType typeId="01a2c9bf-b258-4c2b-8d34-8c28f241cc3d" valueTypeId="97b5daee-c409-4a94-a365-1f81c02d31a0"/>
-    <recordType typeId="9b8606d7-1497-4d08-a24f-6124d89c073e" valueTypeId="3301b6d4-0dba-40f2-878e-c980880c0d31"/>
+    <selectionType typeId="9d2606bf-7ab2-4257-8661-04c3c03211cd" valueTypeId="ec5ac613-b957-44bc-b36b-2492018aa611"/>
+    <listType typeId="1a74c19d-4e68-4e01-ae06-33183d4c34d2" valueTypeId="dfadfa9b-4896-4a13-a2b9-b75a50cf4f1a"/>
+    <managerType typeId="6d11e482-b890-46d4-ab59-5cd4d6ed2b7f" valueTypeId="62c7421f-1dd2-4333-9fd9-b13de3771182"/>
+    <recordSetType typeId="10ce19a3-2a9e-4fe2-b141-9b52186399f7" valueTypeId="8e3fa149-5634-46b9-a0d3-a51e40d0e375"/>
+    <recordKeyType typeId="eb36d869-8a40-4ac2-a0a9-cef2c3042f0a" valueTypeId="6546556a-aa7f-4cc7-83cd-eff99a8404a0"/>
+    <recordType typeId="6ccad310-cbf3-4d84-b63b-e024b84db16b" valueTypeId="e6bbc660-ba8f-46b4-a2ae-a7c321bd3d42"/>
   </producedTypes>
   <name>ВКМ_ВыполненныеКлиентуРаботы</name>
-  <synonym>
-    <key>ru</key>
-    <value>Выполненные клиенту работы</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="b27ab181-289b-4a93-97aa-fb2f83242de6">
-    <name>ВКМ_ЧасыКОплатеКлиенту</name>
-    <synonym>
-      <key>ru</key>
-      <value>Часы к оплате клиенту</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>8</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="4126cb35-db84-4aa6-ad8b-6767bd105581">
-    <name>ВКМ_СуммаКОплате</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма к оплате</value>
-    </synonym>
-    <type>
-      <types>DefinedType.ВКМ_Денежный</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <dimensions uuid="86dea37c-18e3-4e16-811f-a60813950c51">
-    <name>ВКМ_Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Организации</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
-  <dimensions uuid="95d39542-4493-49a8-ab7c-c80de08ea712">
-    <name>ВКМ_Клиент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Клиент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
-  <dimensions uuid="3fdf39e7-f363-41de-9fed-d2e681218c23">
-    <name>ВКМ_Договор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Договор</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ДоговорыКонтрагентов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
 </mdclass:AccumulationRegister>

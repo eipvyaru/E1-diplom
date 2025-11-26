@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ba61c42-0c6b-4dab-87ee-1f4f3875f6de">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccd745d8-85cb-4e52-b68d-7c9d17ac2518" extendedConfigurationObject="639bed9d-6667-4294-b391-07525a72125d">
   <producedTypes>
-    <refType typeId="6f1489a1-e01b-40c2-af96-0611ee64741e" valueTypeId="c9910c52-1a3e-49b8-aa24-77f70b7b1c7a"/>
-    <listType typeId="710ff94d-cf62-4733-a734-6f9f3947234a" valueTypeId="a211fb36-f94c-4cc5-8be0-3ce65ee30687"/>
-    <managerType typeId="d8636ddc-5160-40f1-8099-aa0c1c5fe7ab" valueTypeId="d2e30f05-55bc-4079-af55-3642a367cdba"/>
+    <refType typeId="a8c3a9e4-1f69-4e23-bd82-5185bc757537" valueTypeId="87815fd6-502b-4d92-a0a9-345c19b49472"/>
+    <listType typeId="cc13552d-a73a-45cf-9c86-22cdc37c4283" valueTypeId="d1e71d98-b5fe-4e02-83f1-43bd95874c1b"/>
+    <managerType typeId="ff0d4287-ab89-4340-815a-c9696f485efe" valueTypeId="619f7db0-bcca-4cd1-84e6-b747329f5935"/>
   </producedTypes>
   <name>ВКМ_КатегорияСотрудника</name>
-  <synonym>
-    <key>ru</key>
-    <value>Категория сотрудника</value>
-  </synonym>
-  <quickChoice>true</quickChoice>
-  <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="dfe26ce6-4241-4d9f-acf3-6124d748f0ab">
-    <name>ВКМ_АдминистративныйПерсонал</name>
-    <synonym>
-      <key>ru</key>
-      <value>Административный персонал</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="75886e5a-9390-43f0-8ae7-440d24bc6a9b">
-    <name>ВКМ_Специалисты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Специалисты</value>
-    </synonym>
-  </enumValues>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
 </mdclass:Enum>

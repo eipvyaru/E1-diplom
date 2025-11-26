@@ -1,109 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8747598-726a-4a9c-b2aa-3757eb8f0053">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b3e15ce-87cc-4ae5-8d80-9529e4aac390" extendedConfigurationObject="31695a87-c8c0-4b3d-8639-b2b911813402">
   <producedTypes>
-    <objectType typeId="c535632b-f06a-427a-a067-5caa4d8b5cba" valueTypeId="96859f08-831a-415e-ac82-b1a86b13d1f4"/>
-    <refType typeId="6379d6da-878b-4a0d-aa2a-c6a96bda108b" valueTypeId="5927b9e1-8154-4f4b-8171-e28f76bfe481"/>
-    <selectionType typeId="ef228996-5a34-450b-87ab-d5592521147c" valueTypeId="970ee00f-5f68-4cf5-8a07-ae1d2680530c"/>
-    <listType typeId="4136c5b9-ef3b-48b0-93d3-744777d1fe7d" valueTypeId="2dbeb512-4c57-4f03-86f8-2f3a4eaf716a"/>
-    <managerType typeId="55408839-0ac4-4ca4-99d1-62bf971f82d3" valueTypeId="beb984ee-c491-4412-8dfb-5520d3b0795e"/>
+    <objectType typeId="0af6a9ba-e3dc-4e73-bd5d-4ad57b66b216" valueTypeId="7558b6f7-2bcc-4ecc-9e66-8c6aae825527"/>
+    <refType typeId="9a01b5b7-6450-4255-9670-4305acf31655" valueTypeId="29400403-4130-48b1-bd26-8ae354f1f77f"/>
+    <selectionType typeId="0ab1ba50-d13d-4c4b-8d87-7d26634ed022" valueTypeId="6a16d177-8c6b-4432-aff6-f642b5ea44ad"/>
+    <listType typeId="2375530a-fc0d-4eef-9ca7-cff22dcfaae0" valueTypeId="ae447748-e996-4564-be9e-1c1366e1d1f3"/>
+    <managerType typeId="bf62791b-f17a-408a-acf6-b80e505ad9db" valueTypeId="57289ebd-92c6-4917-8c4d-a9126af12c28"/>
   </producedTypes>
   <name>ВКМ_ПараметрыРасчетаЗПСотрудников</name>
-  <synonym>
-    <key>ru</key>
-    <value>Параметры расчета ЗП Сотрудников</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_ПараметрыРасчетаЗПСотрудников.StandardAttribute.Number</inputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>Use</createOnInput>
-  <fullTextSearch>Use</fullTextSearch>
-  <numberType>String</numberType>
-  <numberLength>9</numberLength>
-  <numberAllowedLength>Variable</numberAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
-  <realTimePosting>Deny</realTimePosting>
-  <registerRecords>InformationRegister.ВКМ_УсловияОплатыСотрудников</registerRecords>
-  <postInPrivilegedMode>true</postInPrivilegedMode>
-  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="9e3af829-0a44-4d5f-8d21-a51c2c39b922">
+  <attributes uuid="5d0f3523-73b7-44cd-a153-c4ca498b5d69" extendedConfigurationObject="783ba760-209a-4804-8987-5f450dedd242">
     <name>ВКМ_Сотрудник</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сотрудник</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_Сотрудник</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_Сотрудник</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="4d51959a-4e08-4cdd-8cde-6a53fc5dfcf9">
+  <attributes uuid="671bf399-658e-4749-a419-df61e86a97cb" extendedConfigurationObject="eb7e5f4d-bcf1-4a26-840b-76b088976e10">
     <name>ВКМ_Оклад</name>
-    <synonym>
-      <key>ru</key>
-      <value>Оклад</value>
-    </synonym>
-    <type>
-      <types>DefinedType.ВКМ_Денежный</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Extended</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>16</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="2a33fb18-6917-4ec7-b066-7dddec9d9d57">
+  <attributes uuid="4292a4e3-24b6-4f15-8d6a-8876d9946044" extendedConfigurationObject="6bdb0b25-8f8b-46f0-9dc7-5c8a3dd2a25b">
     <name>ВКМ_ПроцентОтРабот</name>
-    <synonym>
-      <key>ru</key>
-      <value>Процент за выполненные работы клиентам</value>
-    </synonym>
-    <type>
-      <types>DefinedType.ВКМ_Денежный</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
   </attributes>
-  <attributes uuid="2f6fbb69-f478-4c66-bf1b-90af89a51102">
+  <attributes uuid="1262c194-d4be-41f9-b7ed-47cb3049f5f7" extendedConfigurationObject="b11f2180-1426-4d88-8b61-306f9bd0058c">
     <name>ВКМ_ГрафикРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>График работы</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_ГрафикиРаботы</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="12744425-766e-48c4-8200-3044fec27b98">
+  <attributes uuid="a2485f3c-6b95-487f-9ce3-1a18fe3372d5" extendedConfigurationObject="c38fdf50-51bb-413a-a9d9-7b57c21ffa2c">
     <name>ВКМ_КатегорияСотрудника</name>
-    <synonym>
-      <key>ru</key>
-      <value>ВКМ категория сотрудника</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВКМ_КатегорияСотрудника</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВКМ_КатегорияСотрудника</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
 </mdclass:Document>

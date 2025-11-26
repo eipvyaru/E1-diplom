@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Номер</name>
     <id>1</id>
@@ -8,6 +8,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Number</segments>
+    </dataPath>
     <extendedTooltip>
       <name>НомерРасширеннаяПодсказка</name>
       <id>3</id>
@@ -45,6 +48,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Date</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
       <id>6</id>
@@ -82,6 +88,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_Организация</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ОрганизацияРасширеннаяПодсказка</name>
       <id>9</id>
@@ -119,6 +128,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_Клиент</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_КлиентРасширеннаяПодсказка</name>
       <id>12</id>
@@ -156,6 +168,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_Договор</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ДоговорРасширеннаяПодсказка</name>
       <id>15</id>
@@ -183,26 +198,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <choiceParameterLinks>
-        <name>Отбор.Организация</name>
-        <datapath xsi:type="form:DataPath">
-          <segments>Объект.ВКМ_Организация</segments>
-        </datapath>
-      </choiceParameterLinks>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <datapath xsi:type="form:DataPath">
-          <segments>Объект.ВКМ_Клиент</segments>
-        </datapath>
-      </choiceParameterLinks>
-      <choiceParameters>
-        <name>Отбор.ВидДоговора</name>
-        <value xsi:type="form:FormChoiceListDesTimeValue">
-          <value xsi:type="core:ReferenceValue">
-            <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбоненскоеОбслуживание</value>
-          </value>
-        </value>
-      </choiceParameters>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -213,6 +208,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_Специалист</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_СпециалистРасширеннаяПодсказка</name>
       <id>18</id>
@@ -250,6 +248,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_ДатаПроведенияРабот</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ДатаПроведенияРаботРасширеннаяПодсказка</name>
       <id>21</id>
@@ -287,6 +288,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_ВремяНачалаРаботПлан</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ВремяНачалаРаботПланРасширеннаяПодсказка</name>
       <id>24</id>
@@ -324,6 +328,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_ВремяОкончанияРаботПлан</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ВремяОкончанияРаботПланРасширеннаяПодсказка</name>
       <id>27</id>
@@ -361,6 +368,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_ОписаниеПроблемы</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_ОписаниеПроблемыРасширеннаяПодсказка</name>
       <id>30</id>
@@ -398,6 +408,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_Комментарий</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ВКМ_КомментарийРасширеннаяПодсказка</name>
       <id>33</id>
@@ -435,6 +448,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВКМ_ВыполненныеРаботы</segments>
+    </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ВКМ_ВыполненныеРаботыНомерСтроки</name>
@@ -444,6 +460,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ВКМ_ВыполненныеРаботы.LineNumber</segments>
+      </dataPath>
       <extendedTooltip>
         <name>ВКМ_ВыполненныеРаботыНомерСтрокиРасширеннаяПодсказка</name>
         <id>49</id>
@@ -477,6 +496,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ВКМ_ВыполненныеРаботы.ВКМ_ОписаниеРабот</segments>
+      </dataPath>
       <extendedTooltip>
         <name>ВКМ_ВыполненныеРаботыВКМ_ОписаниеРаботРасширеннаяПодсказка</name>
         <id>52</id>
@@ -514,6 +536,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ВКМ_ВыполненныеРаботы.ВКМ_ФактическиПотраченоЧасов</segments>
+      </dataPath>
       <extendedTooltip>
         <name>ВКМ_ВыполненныеРаботыВКМ_ФактическиПотраченоЧасовРасширеннаяПодсказка</name>
         <id>55</id>
@@ -551,6 +576,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ВКМ_ВыполненныеРаботы.ВКМ_ЧасыКОплатеКлиенту</segments>
+      </dataPath>
       <extendedTooltip>
         <name>ВКМ_ВыполненныеРаботыВКМ_ЧасыКОплатеКлиентуРасширеннаяПодсказка</name>
         <id>58</id>
@@ -700,6 +728,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -709,6 +741,24 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DocumentObject.ВКМ_ОбслуживаниеКлиентов</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <savedData>true</savedData>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

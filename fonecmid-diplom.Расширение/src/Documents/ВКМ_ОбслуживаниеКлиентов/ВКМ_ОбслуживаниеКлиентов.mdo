@@ -1,277 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="623c82a6-6ef0-43fc-b1d9-69e4fb66c0bf">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f8cdcf54-3f59-4cf6-94d9-91e061f0814c" extendedConfigurationObject="ef272a24-132c-4ed8-baf9-b3add7d281d5">
   <producedTypes>
-    <objectType typeId="ea9ab767-ff30-49d2-9b90-03c12b46e9e3" valueTypeId="ceb73601-da7e-4f43-a45c-f7526a83f380"/>
-    <refType typeId="260d0a58-0289-448d-982e-cd10e04f2b08" valueTypeId="09ec94fd-1a46-4365-874a-e010eca4210d"/>
-    <selectionType typeId="0786a937-5b28-40e6-b0a9-7a411c78b2a8" valueTypeId="de232a16-94fe-4caa-ab7e-63362be9f3ad"/>
-    <listType typeId="a17d327f-f331-4d8f-8806-9d302876272c" valueTypeId="ed040915-6b4c-4fd4-afd2-567c3b84ac1b"/>
-    <managerType typeId="682cf7a9-1e9e-4a90-ba2c-370035f24c07" valueTypeId="794d051b-1ebb-4e92-a9be-bc69a06640d0"/>
+    <objectType typeId="a244beb4-912c-4e04-9b44-ad137528c950" valueTypeId="8eb83fd7-fa8d-49de-b3a3-3473de1ee564"/>
+    <refType typeId="f19e1d2f-e936-4ba0-b8cf-4d0caccf003e" valueTypeId="160ae69a-5e72-4331-b9d3-bfa045502c64"/>
+    <selectionType typeId="2b6ccb57-6b69-40ce-99f8-847814d2eaf7" valueTypeId="60fb1d16-4eb8-4aae-88b7-2f28bcff0116"/>
+    <listType typeId="373035a1-afd0-485c-9cfd-c9bf11443201" valueTypeId="80062339-6c85-40ab-8be4-1045f1d6563b"/>
+    <managerType typeId="fcace7ae-7c4d-4a16-a32b-3865b0f04b7c" valueTypeId="c129602e-dbae-43da-87ef-26bb86e3e1a5"/>
   </producedTypes>
   <name>ВКМ_ОбслуживаниеКлиентов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Обслуживание клиентов</value>
-  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_ОбслуживаниеКлиентов.StandardAttribute.Number</inputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>Use</createOnInput>
-  <fullTextSearch>Use</fullTextSearch>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиентов.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ВКМ_ОбслуживаниеКлиентов.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
-  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</registerRecords>
-  <postInPrivilegedMode>true</postInPrivilegedMode>
-  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="c24b18fd-8475-435d-85d8-1416ea4c0a4e">
+  <attributes uuid="05b75d8a-9b4c-4f18-97c8-d28cc1765a8a" extendedConfigurationObject="966b37bf-8dcc-468e-b37b-61be6ae69a71">
     <name>ВКМ_Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Организации</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="6c875481-d471-4517-974e-52b32170efe4">
+  <attributes uuid="ab4770bd-beca-43af-b373-607e6f3b0048" extendedConfigurationObject="11e1ef2d-e86b-43a5-b01b-65da4ef88eb9">
     <name>ВКМ_Клиент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Клиент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="62aa313c-169a-4912-93ac-d0e895826147">
+  <attributes uuid="544154ce-f6c1-4f6d-98f8-8f3205a411b8" extendedConfigurationObject="99f558f1-a556-42d5-a52c-639e7979e567">
     <name>ВКМ_Договор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Договор</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ДоговорыКонтрагентов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.ВКМ_Организация</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.ВКМ_Клиент</field>
-    </choiceParameterLinks>
-    <choiceParameters>
-      <name>Отбор.ВидДоговора</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбоненскоеОбслуживание</value>
-      </value>
-    </choiceParameters>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="5c18625b-9041-444a-a440-4d4f7cf361fd">
+  <attributes uuid="c8b2119a-33c3-443b-a434-1da95a8c32a0" extendedConfigurationObject="154f981f-4469-4e0f-aaab-e113260fedd8">
     <name>ВКМ_Специалист</name>
-    <synonym>
-      <key>ru</key>
-      <value>Специалист</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_Сотрудник</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВКМ_Сотрудник</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="246ac5c9-82fa-4e92-b634-62fb91cf228d">
+  <attributes uuid="772f2ad7-6ae1-4f93-8456-41de7253b777" extendedConfigurationObject="57fd3b55-02dd-44a1-a2f3-6d414f99704f">
     <name>ВКМ_ДатаПроведенияРабот</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата проведения работ</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="7e6caef0-8e44-4d39-8cad-934816396d61">
+  <attributes uuid="d9bd74ed-5e26-47c5-9918-f66e662857b9" extendedConfigurationObject="eae9df20-8342-405b-9bcf-ecca76ef1acb">
     <name>ВКМ_ВремяНачалаРаботПлан</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время начала работ (план)</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="dbf63a2e-f341-428d-b784-38b7e477da0f">
+  <attributes uuid="dc7c726f-e4da-446c-a356-7935191efeac" extendedConfigurationObject="b604bf0a-140b-445a-ba47-6a27db168d5e">
     <name>ВКМ_ВремяОкончанияРаботПлан</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время окончание работ (план)</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="1e5b122e-d996-4f2b-825e-1847d22ac510">
+  <attributes uuid="00450532-ea53-4882-86de-59d0b846de89" extendedConfigurationObject="82ee4161-4a5f-4136-924a-f437594a8cc1">
     <name>ВКМ_ОписаниеПроблемы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Описание проблемы</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
   </attributes>
-  <attributes uuid="1a138ad8-5543-493a-813c-a199a361bdff">
+  <attributes uuid="94a2e070-e2fa-4807-9d0f-8ffb904ed4d1" extendedConfigurationObject="a2779744-09b1-418c-80f6-7d33a1ebfc41">
     <name>ВКМ_Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
   </attributes>
-  <forms uuid="cff6b2e9-b287-4bfa-9aa6-e85803edf702">
+  <forms uuid="0053edf6-c709-4017-a284-52e4824b3c5c" extendedConfigurationObject="accc2434-0aae-4e73-8d9d-0f20edcb6494">
     <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
   </forms>
-  <forms uuid="d40b1412-51ee-4089-bd32-bcc13cd7e1fb">
+  <forms uuid="74629fc3-867f-4a89-9ad1-fc9958a0497f" extendedConfigurationObject="f6e6b904-d448-4983-86b9-676f41105d43">
     <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
   </forms>
-  <tabularSections uuid="df026797-4a51-4032-b5ae-874fbdf55f51">
+  <tabularSections uuid="da3dc9e7-e065-4f4b-b10b-749fe4347b80" extendedConfigurationObject="10ac1e4a-b982-468c-8842-593f2ee4dcb9">
     <producedTypes>
-      <objectType typeId="c60aeeaa-ddc5-48ee-b7ae-8f8db82037d6" valueTypeId="e5058a66-7213-4dfc-8fe6-47919444dd09"/>
-      <rowType typeId="20cd7496-3727-4947-832f-b4cb7da3b305" valueTypeId="ae576b53-f827-4d55-9b5f-d071af36dbca"/>
+      <objectType typeId="0e08956c-66a0-4be2-ae21-f13b1bf88d0f" valueTypeId="2901b2a1-6042-4a41-87af-922055bd7282"/>
+      <rowType typeId="52633ee5-3ead-46a6-99bb-880b19d3366a" valueTypeId="b89693a5-03f9-4772-975c-739a263389ec"/>
     </producedTypes>
     <name>ВКМ_ВыполненныеРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выполненные работы</value>
-    </synonym>
-    <attributes uuid="df0819e6-86fe-41d0-8382-4b7e63983e42">
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="8ea11d49-b6dc-4ef0-aea5-9ec48c04a1e6" extendedConfigurationObject="e23d67ce-a059-4b1a-b2c8-cc105a9e2689">
       <name>ВКМ_ОписаниеРабот</name>
-      <synonym>
-        <key>ru</key>
-        <value>Описание работ</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers/>
+        </typeExtension>
+      </extension>
     </attributes>
-    <attributes uuid="f1dd5f0f-d16d-4479-9a0a-7774574b7611">
+    <attributes uuid="77f8f25b-27dd-4ce0-ab52-99cc734cebc9" extendedConfigurationObject="ccb5b60e-31e7-48a9-9fa9-1dd7556117bd">
       <name>ВКМ_ФактическиПотраченоЧасов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Фактически потрачено часов</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Time</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Time</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
     </attributes>
-    <attributes uuid="5e0230f6-4cc3-447e-8ce0-3586deb089c9">
+    <attributes uuid="c40fb7d2-cf1d-48e1-baf3-d08c99169dd1" extendedConfigurationObject="126df77f-c7d3-40b2-833f-65c195c67af4">
       <name>ВКМ_ЧасыКОплатеКлиенту</name>
-      <synonym>
-        <key>ru</key>
-        <value>Часы к оплате клиенту</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Time</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Time</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
     </attributes>
   </tabularSections>
 </mdclass:Document>

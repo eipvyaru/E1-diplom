@@ -7,7 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ВКМ_ПараметрыРасчетаЗПСотрудников</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
@@ -15,5 +14,6 @@
   <content>Role.ВКМ_РольКадровикРасчетчик</content>
   <content>Report.ВКМ_РасчётыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Document.ВКМ_ПараметрыРасчетаЗПСотрудников</content>
   <subsystems>ВКМ_Справочники</subsystems>
 </mdclass:Subsystem>

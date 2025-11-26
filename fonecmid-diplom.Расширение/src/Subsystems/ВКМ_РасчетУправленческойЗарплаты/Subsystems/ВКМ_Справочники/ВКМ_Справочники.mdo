@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
-  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Catalog.ВКМ_Сотрудник</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <parentSubsystem>Subsystem.ВКМ_РасчетУправленческойЗарплаты</parentSubsystem>

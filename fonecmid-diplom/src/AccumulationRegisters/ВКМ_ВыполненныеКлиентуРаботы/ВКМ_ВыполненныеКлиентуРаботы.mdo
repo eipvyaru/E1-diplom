@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd5ab88-838c-4973-80d7-c392b7046f6b">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9712a654-51ea-4d27-b451-f5d6583bb6a8">
   <producedTypes>
-    <selectionType typeId="439b9043-231d-43a4-89f0-0b7a1685a524" valueTypeId="b92f6677-83dc-4fa9-be9f-78086476ab72"/>
-    <listType typeId="a59db4da-c539-4461-a701-f229c1f62b95" valueTypeId="f91c569a-5264-4ee8-85b5-342937cb89d2"/>
-    <managerType typeId="293bfc97-9ab2-4a0e-a3b2-bff74ca3c912" valueTypeId="df6de3bd-b89d-4cec-9923-59f567920a44"/>
-    <recordSetType typeId="cf609f65-f20b-479e-aa50-d8f514c97728" valueTypeId="50d9f9f9-6ddb-4c87-ac90-7ca2d712998e"/>
-    <recordKeyType typeId="4a9ba2c0-4496-45ea-95bb-8954332a3a68" valueTypeId="1ff4935f-656d-4b6d-b9f3-04e36c6103d3"/>
-    <recordType typeId="8fbb643c-6fe1-4bc6-8f3e-9d2cd2bd0a04" valueTypeId="2a60151b-3e5d-4912-baaa-bd26c15035ca"/>
+    <selectionType typeId="13825263-2b1c-4f1d-b33f-4181ffd19c61" valueTypeId="5114f551-ee5b-48da-8f31-fe56e63b6b0d"/>
+    <listType typeId="bbd8e336-e40b-47c0-bb8f-1978aa18014e" valueTypeId="2cf58ded-b5ce-48bd-8ec8-69741f277013"/>
+    <managerType typeId="f415442d-71eb-4b45-80e2-75a3221029d8" valueTypeId="81f39377-abca-4b47-bbbe-418c98089287"/>
+    <recordSetType typeId="76b74c13-d032-415d-83ec-eef97e7de2fc" valueTypeId="ec105611-bb44-497a-9bc5-eaf26b6ad46d"/>
+    <recordKeyType typeId="c9a41796-d8e0-4efa-be39-43a5b64b3f38" valueTypeId="4cdbb832-9691-44b8-8747-66a3092b2f9a"/>
+    <recordType typeId="64666479-1382-49a4-8108-7188ddcaf325" valueTypeId="e847e0ad-a510-4195-a794-9365bca0fab4"/>
   </producedTypes>
   <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
@@ -16,7 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="18a95cd6-f2ca-4841-a01e-d56318229897">
+  <resources uuid="6b471430-92eb-4410-a015-336f135ed954">
     <name>ВКМ_ЧасыКОплатеКлиенту</name>
     <synonym>
       <key>ru</key>
@@ -25,7 +25,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
+        <precision>8</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -33,20 +33,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="9d4671be-7f00-4a4a-9327-93d5c314e6ea">
+  <resources uuid="7f2abbe1-0801-4074-90ee-142a228a4dac">
     <name>ВКМ_СуммаКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
     </synonym>
     <type>
-      <types>DefinedType.ВКМ_Денежный</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>16</precision>
+        <scale>2</scale>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="1459f48d-dbf1-4954-973c-dff3500af492">
+  <dimensions uuid="f2975360-2c9b-46f0-8028-461ce9abcb07">
     <name>ВКМ_Организация</name>
     <synonym>
       <key>ru</key>
@@ -59,7 +63,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="41abd14e-cd87-4328-8efb-cabe8692ab0c">
+  <dimensions uuid="f3c1d789-349a-4900-a859-ab1f0d0fb884">
     <name>ВКМ_Клиент</name>
     <synonym>
       <key>ru</key>
@@ -72,7 +76,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="27ed87e4-443c-4723-8b7b-92ecea9cd7c9">
+  <dimensions uuid="10d5563e-5fbb-4912-9737-24e106e7568e">
     <name>ВКМ_Договор</name>
     <synonym>
       <key>ru</key>

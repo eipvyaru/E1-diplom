@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="efdf7cb9-7b69-4a51-8f91-c4ce3b4285c6" extendedConfigurationObject="ecaba9aa-fca7-42f5-a4fe-d8176cf875b9">
+  <producedTypes>
+    <selectionType typeId="6346d2f5-0d15-4cd9-8866-654a6c1f5002" valueTypeId="28181ea1-85b4-41b3-8d5f-70cb4a780727"/>
+    <listType typeId="0d2d0b48-77b9-4fe5-9d38-50fa80527957" valueTypeId="52f14de5-5884-4331-ac07-30f301e6f312"/>
+    <managerType typeId="b496e129-0eba-42e2-9743-73dd8d9462f7" valueTypeId="67598f0c-19fd-4e0b-8a38-5b0f5be1a304"/>
+    <recordSetType typeId="66b26f0c-f2bc-4713-917f-b5c675dc9d55" valueTypeId="a0a6b73d-41cc-4904-93fc-5b97cd89bd15"/>
+    <recordKeyType typeId="789b9525-cd99-493f-ad16-0437e138eca5" valueTypeId="4474d93a-cd59-4801-881f-6ed521735d76"/>
+    <recordType typeId="7f4b07f5-c125-4947-811a-a3be76185069" valueTypeId="617b4a1c-a71b-456c-ab5c-d46104f8e00c"/>
+    <recordManagerType typeId="3612ac34-5c7c-49fb-9bc8-cf589fb8e237" valueTypeId="d14b2ec5-28eb-4bdb-9709-f124a03269ff"/>
+  </producedTypes>
+  <name>ДвоичныеДанныеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dimensions uuid="17787549-6791-464a-8527-63e022e4cb31" extendedConfigurationObject="55e47901-c79c-41c5-9d7f-6b6846ed2782">
+    <name>Файл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ПрисоединенныйФайл</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>
