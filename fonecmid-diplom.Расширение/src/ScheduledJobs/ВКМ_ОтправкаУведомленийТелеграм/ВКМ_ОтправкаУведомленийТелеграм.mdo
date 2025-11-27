@@ -6,7 +6,10 @@
     <value>Отправка уведомлений телеграм</value>
   </synonym>
   <methodName>CommonModule.ВКМ_ТелеграмВызовСервера.ВКМ_ОтправкаУведомленийТелеграм</methodName>
+  <description>Отправка уведомлений телеграм</description>
+  <key>ВКМ_ОтправкаУведомленийТелеграм</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>
