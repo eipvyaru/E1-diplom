@@ -15,4 +15,77 @@
     <registerType>Checked</registerType>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <resources uuid="269bfd67-7ec1-4a46-8f8f-ac31a780cf6a" extendedConfigurationObject="6b471430-92eb-4410-a015-336f135ed954">
+    <name>ВКМ_ЧасыКОплатеКлиенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>8</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="3b3a016b-fead-4e62-a8db-061f04aa7b62" extendedConfigurationObject="7f2abbe1-0801-4074-90ee-142a228a4dac">
+    <name>ВКМ_СуммаКОплате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>16</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="86d9858a-b2d1-4c79-befd-7a659b0a82aa" extendedConfigurationObject="f2975360-2c9b-46f0-8028-461ce9abcb07">
+    <name>ВКМ_Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="cc6b5b33-39e9-4148-9285-ed1179fd3504" extendedConfigurationObject="f3c1d789-349a-4900-a859-ab1f0d0fb884">
+    <name>ВКМ_Клиент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="dd86e44f-a160-43d7-81ee-231f50ce8ac0" extendedConfigurationObject="10d5563e-5fbb-4912-9737-24e106e7568e">
+    <name>ВКМ_Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
 </mdclass:AccumulationRegister>

@@ -26,6 +26,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДвоичныеДанныеФайлов.Dimension.Файл</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Организации</name>
 		<right>
 			<name>Read</name>
@@ -660,6 +671,50 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.НаличиеФайлов.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НаличиеФайлов.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НаличиеФайлов.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НаличиеФайлов.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.ВКМ_ДатаПроведенияРабот</name>
 		<right>
 			<name>View</name>
@@ -810,6 +865,17 @@
 	</object>
 	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.ВКМ_Клиент</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НаличиеФайлов.Dimension.ОбъектСФайлами</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1031,6 +1097,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.НаличиеФайлов.Resource.ЕстьФайлы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.ВКМ_ВремяНачалаРаботПлан</name>
 		<right>
 			<name>View</name>
@@ -1130,6 +1207,50 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДвоичныеДанныеФайлов.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДвоичныеДанныеФайлов.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДвоичныеДанныеФайлов.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДвоичныеДанныеФайлов.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
