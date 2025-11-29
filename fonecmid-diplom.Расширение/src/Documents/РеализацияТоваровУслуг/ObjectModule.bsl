@@ -19,6 +19,8 @@
 #КонецВставки
 КонецПроцедуры
 
+//@skip-check module-structure-method-in-regions
+//@skip-check doc-comment-parameter-section
 &После("ОбработкаПроверкиЗаполнения") 
 Процедура ВКМ_ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты) Экспорт
 

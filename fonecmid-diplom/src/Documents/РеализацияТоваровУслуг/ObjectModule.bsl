@@ -81,6 +81,7 @@
 	
 КонецПроцедуры
 
+//@skip-check module-structure-event-regions
 Процедура ОбработкаПроведения(Отказ, Режим)
 
 	Движения.ОбработкаЗаказов.Записывать = Истина;
@@ -105,6 +106,9 @@
 
 КонецПроцедуры
 
+//@skip-check module-empty-method
+//@skip-check module-structure-event-regions
+//@skip-check doc-comment-parameter-section
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты) Экспорт
 КонецПроцедуры
 #КонецОбласти

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Document.РеализацияТоваровУслуг">
+  <suppressions key="com.e1c.g5.dt.core.legacy:md-legacy-emf-check" value="true"/>
+  <containments fqn="templates:ПФ_MXL_АктОказанныхУслуг">
+    <suppressions key="com.e1c.v8codestyle.md:extension-md-object-prefix" value="true"/>
+  </containments>
+</suppress:SuppressGenericObject>

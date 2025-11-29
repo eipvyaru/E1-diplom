@@ -3,6 +3,9 @@
 #Область ОбработчикиСобытий
 
 
+//@skip-check change-and-validate-instead-of-around
+//@skip-check module-structure-method-in-regions
+//@skip-check doc-comment-parameter-section
 &Вместо("ОбработкаПроверкиЗаполнения")
 Процедура ВКМ_ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты) Экспорт
 
